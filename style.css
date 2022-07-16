@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url(./img/WhatsApp\ Image\ 2022-07-15\ at\ 7.36.25\ PM.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    
+    form{
+    margin-top: 5rem;
+    
+    }
+    
+    .inicio{
+    margin-top: 1rem;
+    color: aliceblue;
+    
+    }
+    
+    
+    footer{
+    margin-top: 50%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-small;
+    color: aliceblue;
+    }
+    div{
+    color: aliceblue;
+    }
+    
+    .div-container{
+    margin-top: 1rem;
+    
+    }

@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Entrega-3</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+<h1 class="inicio">Bienvenido</h1>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+
+<form id="idForm">
+<div class="container">
+<div class="mb-3">
+<label for="idNombre" class="form-label">Nombre y apellidos</label>
+<input type="text" class="form-control" id="idNombre" aria-describedby="emailHelp">
+</div>
+<div class="mb-3">
+<label for="idEmail" class="form-label">Correo Electronico</label>
+<input type="email" class="form-control" id="idEmail" aria-describedby="emailHelp">
+<div id="emailHelp" class="form-text">No compartiremos tus datos con nadie...o si</div>
+</div>
+<div class="mb-3">
+<label for="idContraseña" class="form-label">Contraseña</label>
+<input type="password" class="form-control" id="idContraseña">
+</div>
+<div class="mb-3">
+<label for="idCapital" class="form-label">Ingrese capital a invertir</label>
+<input type="number" class="form-control" id="idCapital" aria-describedby="emailHelp">
+</div>
+<div class="mb-3">
+<label for="idPorcentaje" class="form-label">Ingrese su porcentaje de ganancia</label>
+<input type="number" class="form-control" id="idPorcentaje" aria-describedby="emailHelp">
+
+</div>
+<select class="form-select" aria-label="Default select example" for="idApalancamiento" id="idApalancamiento" ><option selected>Selecione apalancamiento(Cuanto mas alto, mas riesgo)</option>
+<option value="5x">5x</option>
+<option value="10x">10x</option>
+<option value="20x">20x</option>
+</select>
+<div class="mb-3 form-check">
+<input type="checkbox" class="form-check-input" id="exampleCheck1">
+<label class="form-check-label" for="exampleCheck1">Aceptar condiciones</label>
+</div>
+<button type="submit" class="btn btn-primary">Registrarse</button>
+
+<button id="botonUsers" class="btn btn-dark">Mostrar Usuarios</button>
+<div id="divUsers" class="row"></div>
+
+<div class="div-container">
+<button id="botonGanancia" class="btn btn-dark">Ver ganancias</button>
+<div id="divGanancia" class="row"></div>
+</div>
+</form></div>
+
+
+
+<script src="main.js"></script>  
+<footer><h3>Gracias por contactarnos</h3></footer>
+</body>
+</html>
