@@ -19,7 +19,7 @@ class Usuario{
     let nombre = document.getElementById("idNombre").value
     let email= document.getElementById("idEmail").value
     let constraseña = document.getElementById("idContraseña").value
-    let capital = document.getElementById("idCapital").value
+    let capital =  document.getElementById("idCapital").value
     let porcentaje = document.getElementById("idPorcentaje").value
     let apalancamiento = document.getElementById("idApalancamiento").value
     
@@ -38,5 +38,7 @@ class Usuario{
     ganancia.addEventListener("click", () => {
     
     let operacion = parseInt((this.porcentaje*this.apalancamiento)*this.capital)/100
-    console.log("Su ganancia es de " +operacion+ "USD")
+    console.log(`Su ganancia es de ${operacion} USD`)
     } )
+
+
