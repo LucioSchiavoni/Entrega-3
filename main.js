@@ -33,12 +33,5 @@ class Usuario{
     
     
     
-    const ganancia = document.getElementById("botonGanancia")
     
-    ganancia.addEventListener("click", () => {
-    
-    let operacion = parseInt((this.porcentaje*this.apalancamiento)*this.capital)/100
-    console.log(`Su ganancia es de ${operacion} USD`)
-    } )
-
 
