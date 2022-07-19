@@ -7,8 +7,14 @@ class Usuario{
         this.apalancamiento = apalancamiento
         this.porcentaje = porcentaje
     }
-    
+    operacion(){
+        let operacion = parseFloat((this.porcentaje*this.apalancamiento)*this.capital)/100
+        alert(`Su ganancia es de ${operacion} USD`)
     }
+    
+}
+    
+    
     
     const usuarios = []
     
@@ -27,16 +33,10 @@ class Usuario{
     usuarios.push(usuario)
     console.log(usuarios)
     
-    
+    usuario.operacion();
     
     })
     
-    const operacion = document.getElementById("botonGanancia")
-
-    operacion.addEventListener("click", () => {
-        let operacion = parseFloat((this.porcentaje*this.apalancamiento)*this.capital)/100
-        console.log(`Su ganancia es de ${operacion} USD`)
-    })
     
     
 
