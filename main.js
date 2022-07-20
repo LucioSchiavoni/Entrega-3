@@ -9,7 +9,11 @@ class Usuario{
     }
     operacion(){
         let operacion = parseFloat((this.porcentaje*this.apalancamiento)*this.capital)/100
+
         alert(`${this.nombre} a sido registrado y su ganancia es de ${operacion} USD`)
+
+        alert(`Su ganancia es de ${operacion} USD`)
+
     }
     
 }
@@ -36,4 +40,9 @@ class Usuario{
     usuario.operacion();
     
     })
+
+    
+    
+    
+
 
