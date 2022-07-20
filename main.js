@@ -12,8 +12,7 @@ class Usuario{
 
         alert(`${this.nombre} a sido registrado y su ganancia es de ${operacion} USD`)
 
-        alert(`Su ganancia es de ${operacion} USD`)
-
+        
     }
     
 }
